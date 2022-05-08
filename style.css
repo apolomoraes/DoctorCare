@@ -675,6 +675,17 @@ footer .social-links {
     border: none;
   }
 
+  nav#navigation .menu li a.active::after,
+  nav#navigation .menu li a:hover::after {
+    padding-inline: 0.8rem;
+    width: 100%;
+  }
+
+  nav#navigation.scroll .menu li a.active,
+  nav#navigation.scroll .menu li a:hover {
+    opacity: 1;
+  }
+
   /* ===HOME=== */
 
   #home::before {
